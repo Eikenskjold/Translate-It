@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09215455243D265F00BE1EE2 /* IBMSwiftSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09215454243D265F00BE1EE2 /* IBMSwiftSDKCore.framework */; };
+		09215457243D26D300BE1EE2 /* LanguageTranslatorV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09215456243D26D300BE1EE2 /* LanguageTranslatorV3.framework */; };
+		09215458243D26E400BE1EE2 /* IBMSwiftSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09215454243D265F00BE1EE2 /* IBMSwiftSDKCore.framework */; };
+		09215459243D26EA00BE1EE2 /* LanguageTranslatorV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09215456243D26D300BE1EE2 /* LanguageTranslatorV3.framework */; };
+		0921545B243D296200BE1EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0921545A243D296200BE1EE2 /* Assets.xcassets */; };
 		094A277C243A171300103E59 /* WatsonCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094A277A243A171300103E59 /* WatsonCredentials.swift */; };
 		094A277D243A171300103E59 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094A277B243A171300103E59 /* Helpers.swift */; };
-		094A2780243A544800103E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09757D1C2436B90100CE8D6F /* Assets.xcassets */; };
-		09682C4C243CF216008253B0 /* LanguageTranslatorV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09682C4B243CF216008253B0 /* LanguageTranslatorV3.framework */; };
-		09682C4D243CF229008253B0 /* LanguageTranslatorV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09682C4B243CF216008253B0 /* LanguageTranslatorV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		09757D192436B90000CE8D6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09757D182436B90000CE8D6F /* AppDelegate.swift */; };
 		09757D1B2436B90000CE8D6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09757D1A2436B90000CE8D6F /* ViewController.swift */; };
 		09757D202436B90100CE8D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09757D1E2436B90100CE8D6F /* Main.storyboard */; };
-		099CCF652436E5F60017B6DA /* IBMSwiftSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099CCF642436E5F60017B6DA /* IBMSwiftSDKCore.framework */; };
-		099CCF662436E5F60017B6DA /* IBMSwiftSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 099CCF642436E5F60017B6DA /* IBMSwiftSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				09682C4D243CF229008253B0 /* LanguageTranslatorV3.framework in Embed Frameworks */,
-				099CCF662436E5F60017B6DA /* IBMSwiftSDKCore.framework in Embed Frameworks */,
+				09215459243D26EA00BE1EE2 /* LanguageTranslatorV3.framework in Embed Frameworks */,
+				09215458243D26E400BE1EE2 /* IBMSwiftSDKCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,17 +35,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		09215454243D265F00BE1EE2 /* IBMSwiftSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMSwiftSDKCore.framework; path = TranslateIt/IBMSwiftSDKCore.framework; sourceTree = "<group>"; };
+		09215456243D26D300BE1EE2 /* LanguageTranslatorV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LanguageTranslatorV3.framework; path = TranslateIt/LanguageTranslatorV3.framework; sourceTree = "<group>"; };
+		0921545A243D296200BE1EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		094A277A243A171300103E59 /* WatsonCredentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatsonCredentials.swift; sourceTree = "<group>"; };
 		094A277B243A171300103E59 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		09682C4B243CF216008253B0 /* LanguageTranslatorV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LanguageTranslatorV3.framework; path = Carthage/Build/Mac/LanguageTranslatorV3.framework; sourceTree = "<group>"; };
 		09757D152436B90000CE8D6F /* TranslateIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranslateIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09757D182436B90000CE8D6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09757D1A2436B90000CE8D6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		09757D1C2436B90100CE8D6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = /Users/grecco/Documents/Xcode/TranslateIt/TranslateIt/Assets.xcassets; sourceTree = "<absolute>"; };
 		09757D1F2436B90100CE8D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09757D212436B90100CE8D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09757D222436B90100CE8D6F /* TranslateIt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TranslateIt.entitlements; sourceTree = "<group>"; };
-		099CCF642436E5F60017B6DA /* IBMSwiftSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMSwiftSDKCore.framework; path = Carthage/Build/Mac/IBMSwiftSDKCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +53,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09682C4C243CF216008253B0 /* LanguageTranslatorV3.framework in Frameworks */,
-				099CCF652436E5F60017B6DA /* IBMSwiftSDKCore.framework in Frameworks */,
+				09215457243D26D300BE1EE2 /* LanguageTranslatorV3.framework in Frameworks */,
+				09215455243D265F00BE1EE2 /* IBMSwiftSDKCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09215453243D265F00BE1EE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09215456243D26D300BE1EE2 /* LanguageTranslatorV3.framework */,
+				09215454243D265F00BE1EE2 /* IBMSwiftSDKCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		094A2779243A171300103E59 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +85,7 @@
 			children = (
 				09757D172436B90000CE8D6F /* TranslateIt */,
 				09757D162436B90000CE8D6F /* Products */,
+				09215453243D265F00BE1EE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,25 +100,15 @@
 		09757D172436B90000CE8D6F /* TranslateIt */ = {
 			isa = PBXGroup;
 			children = (
+				0921545A243D296200BE1EE2 /* Assets.xcassets */,
 				094A2779243A171300103E59 /* Sources */,
-				099CCF632436E5F60017B6DA /* Frameworks */,
 				09757D182436B90000CE8D6F /* AppDelegate.swift */,
 				09757D1A2436B90000CE8D6F /* ViewController.swift */,
-				09757D1C2436B90100CE8D6F /* Assets.xcassets */,
 				09757D1E2436B90100CE8D6F /* Main.storyboard */,
 				09757D212436B90100CE8D6F /* Info.plist */,
 				09757D222436B90100CE8D6F /* TranslateIt.entitlements */,
 			);
 			path = TranslateIt;
-			sourceTree = SOURCE_ROOT;
-		};
-		099CCF632436E5F60017B6DA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				09682C4B243CF216008253B0 /* LanguageTranslatorV3.framework */,
-				099CCF642436E5F60017B6DA /* IBMSwiftSDKCore.framework */,
-			);
-			name = Frameworks;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -170,8 +170,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0921545B243D296200BE1EE2 /* Assets.xcassets in Resources */,
 				09757D202436B90100CE8D6F /* Main.storyboard in Resources */,
-				094A2780243A544800103E59 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +335,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/TranslateIt",
 				);
 				INFOPLIST_FILE = TranslateIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,6 +365,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/TranslateIt",
 				);
 				INFOPLIST_FILE = TranslateIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
