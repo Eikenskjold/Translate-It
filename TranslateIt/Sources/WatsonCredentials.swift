@@ -17,7 +17,7 @@ import IBMSwiftSDKCore
 
 public struct WCredentials {
 
-    public static let LanguageTranslatorV3APIKey: String =   "XFgs66Jk6bMGh3RPXpZQp-RsUh7LHkjBREbPeAtZckGM"
-    public static let LanguageTranslatorV3URL: String = "https://api.eu-de.language-translator.watson.cloud.ibm.com/instances/44af3adf-5363-498e-a945-ffafc54b1970"
+    public static let LanguageTranslatorV3APIKey: String =   "insert your api"
+    public static let LanguageTranslatorV3URL: String = "insert your url"
 
 }
