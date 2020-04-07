@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../LanguageTranslatorV3.playground">
+   </FileRef>
+   <Group
+      location = "group:../LanguageTranslatorV3"
+      name = "LanguageTranslatorV3">
+   </Group>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
