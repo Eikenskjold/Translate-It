@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		09215455243D265F00BE1EE2 /* IBMSwiftSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09215454243D265F00BE1EE2 /* IBMSwiftSDKCore.framework */; };
 		09215457243D26D300BE1EE2 /* LanguageTranslatorV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09215456243D26D300BE1EE2 /* LanguageTranslatorV3.framework */; };
-		09215458243D26E400BE1EE2 /* IBMSwiftSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09215454243D265F00BE1EE2 /* IBMSwiftSDKCore.framework */; };
-		09215459243D26EA00BE1EE2 /* LanguageTranslatorV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09215456243D26D300BE1EE2 /* LanguageTranslatorV3.framework */; };
+		09215458243D26E400BE1EE2 /* IBMSwiftSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09215454243D265F00BE1EE2 /* IBMSwiftSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		09215459243D26EA00BE1EE2 /* LanguageTranslatorV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09215456243D26D300BE1EE2 /* LanguageTranslatorV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		0921545B243D296200BE1EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0921545A243D296200BE1EE2 /* Assets.xcassets */; };
 		094A277C243A171300103E59 /* WatsonCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094A277A243A171300103E59 /* WatsonCredentials.swift */; };
 		094A277D243A171300103E59 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094A277B243A171300103E59 /* Helpers.swift */; };
@@ -328,8 +328,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_ENTITLEMENTS = TranslateIt/TranslateIt.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = RK76NZ9MJJ;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -348,6 +348,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Pessoal.TranslateIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -358,8 +359,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_ENTITLEMENTS = TranslateIt/TranslateIt.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = RK76NZ9MJJ;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -378,6 +379,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Pessoal.TranslateIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
