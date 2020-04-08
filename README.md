@@ -9,6 +9,12 @@ Useful because you don't need open a page or tab in browser to do a translation.
 
 I'm not a professional programmer!
 
+## IBM Cloud ID
+
+You need create a account in IBM Cloud (Lite - Free): https://cloud.ibm.com/login
+
+Create service "Language Translator" proceed with your customization of resource and get ApiKey and URL, edit the file WatsonCredentials.swift and replace the variables with your data  
+
 ## TO DO
 -Implement switching between the languages
 
