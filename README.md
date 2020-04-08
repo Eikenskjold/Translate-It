@@ -11,7 +11,7 @@ I'm not a professional programmer!
 
 ## IBM Cloud ID
 
-You need create a account in IBM Cloud (Lite - Free): https://cloud.ibm.com/login
+You need create an account in IBM Cloud (Lite - Free): https://cloud.ibm.com/login
 
 Create service "Language Translator" proceed with your customization of resource and get ApiKey and URL, edit the file WatsonCredentials.swift and replace the variables with your data  
 
